@@ -10,6 +10,9 @@ $(call inherit-product, device/sony/akari/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Feature Flags
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_NAME := aosp_akari
 PRODUCT_DEVICE := akari
 PRODUCT_MANUFACTURER := Sony
