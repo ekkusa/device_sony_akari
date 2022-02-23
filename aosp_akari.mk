@@ -12,6 +12,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Feature Flags
 TARGET_SUPPORTS_QUICK_TAP := true
+CUSTOM_BUILD_TYPE := UNOFFICIAL
 
 PRODUCT_NAME := aosp_akari
 PRODUCT_DEVICE := akari
