@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2020 The LineageOS Project
+# Copyright (C) 2018-2020 The aospOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -7,10 +7,10 @@
 # Inherit from akari device
 $(call inherit-product, device/sony/akari/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/hentai/config/common.mk)
 
-PRODUCT_NAME := lineage_akari
+PRODUCT_NAME := aosp_akari
 PRODUCT_DEVICE := akari
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
