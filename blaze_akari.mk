@@ -14,6 +14,7 @@ $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 BLAZE_BUILD_TYPE := UNOFFICIAL
 BLAZE_MAINTAINER := exer
 TARGET_FACE_UNLOCK_SUPPORTED := true
+WITH_GAPPS := true
 
 PRODUCT_NAME := blaze_akari
 PRODUCT_DEVICE := akari
