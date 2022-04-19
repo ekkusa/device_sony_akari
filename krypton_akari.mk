@@ -8,9 +8,9 @@
 $(call inherit-product, device/sony/akari/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/krypton/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_akari
+PRODUCT_NAME := krypton_akari
 PRODUCT_DEVICE := akari
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
