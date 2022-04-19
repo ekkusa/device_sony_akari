@@ -7,10 +7,10 @@
 # Inherit from akari device
 $(call inherit-product, device/sony/akari/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common blaze stuff.
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_akari
+PRODUCT_NAME := blaze_akari
 PRODUCT_DEVICE := akari
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
