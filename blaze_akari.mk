@@ -10,6 +10,11 @@ $(call inherit-product, device/sony/akari/device.mk)
 # Inherit some common blaze stuff.
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
+# Blaze Stuff
+BLAZE_BUILD_TYPE := UNOFFICIAL
+BLAZE_MAINTAINER := exer
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 PRODUCT_NAME := blaze_akari
 PRODUCT_DEVICE := akari
 PRODUCT_MANUFACTURER := Sony
