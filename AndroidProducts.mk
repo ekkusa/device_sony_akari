@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_akari.mk
+    $(LOCAL_DIR)/hentai_akari.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_akari-user \
-    aosp_akari-userdebug \
-    aosp_akari-eng
+    hentai_akari-user \
+    hentai_akari-userdebug \
+    hentai_akari-eng
