@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_akari.mk
+    $(LOCAL_DIR)/paranoid_akari.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_akari-user \
-    lineage_akari-userdebug \
-    lineage_akari-eng
+    paranoid_akari-user \
+    paranoid_akari-userdebug \
+    paranoid_akari-eng
