@@ -8,9 +8,20 @@
 $(call inherit-product, device/sony/akari/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_akari
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Pixys Properties
+TARGET_USES_AOSP_RECOVERY := true
+TARGET_USES_CUSTOM_AVB_KEY := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+
+PRODUCT_NAME := pixys_akari
 PRODUCT_DEVICE := akari
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
